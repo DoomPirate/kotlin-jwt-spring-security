@@ -13,12 +13,13 @@ Run it with:
 "gradle bootrun"
 
 Using postman 
-Do a POST at "http://localhost:8089/api/authenticate?username=user&password=password"
+
+```Do a POST at "http://localhost:8089/api/authenticate?username=user&password=password"```
 
 You'll get the JWT key in the header.
 
 
-Then do a GET at http://localhost:8089/api/private
+```Then do a GET at http://localhost:8089/api/private```
 
 But you must set a "Bearer Token" in the Authorization in Postman.
 
