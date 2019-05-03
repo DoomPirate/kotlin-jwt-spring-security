@@ -7,14 +7,15 @@ Props to Jakub Leško for making a good example and blog post. https://github.co
 
 This is the most simplest, easiest to setup of JWT I have found online so far. 
 
+## Running
 The default port is 8089.
 
 Run it with:
-"gradle bootrun"
+```gradle bootrun```
 
 Using postman 
 
-```Do a POST at "http://localhost:8089/api/authenticate?username=user&password=password"```
+```POST at "http://localhost:8089/api/authenticate?username=user&password=password"```
 
 You'll get the JWT key in the header.
 
